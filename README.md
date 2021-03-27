@@ -1,1 +1,2 @@
 # HeFengWeather
+和风天气API hefeng_location.sql文件为和风天气提供API支持中国3240个市县区以及全球15万的城市天气数据,后经@邯郸市气象爱好者 整理处理变成mysql数据库版本，方便各位使用。数据来源:彩云科技China-City-List-latest.csv文件(截至日期2020-10-29) 数据库表列名如下: id（自增长编号） | Location_ID（地区编号） | Location_Name_EN（城市名称英文） | Country_name（城市名称） | Country_code（国家码）| Country_EN（国家英文） |AD_name（国家名称）| Adm1_EN（一级行政区划英文） | Adm1（一级行政区划） |Adm2_EN（二级行政区划英文）| Adm2（二级行政区划） | Latitude(纬度) | Longitude（经度） | AD_code（地点码）
